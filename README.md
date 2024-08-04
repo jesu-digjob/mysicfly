@@ -13,15 +13,15 @@
 最新版本：[https://sunomusic.fun](https://sunomusic.fun)
 v1 版本：[https://v1.sunomusic.fun](https://v1.sunomusic.fun) 
 
-开源版本对应 v1 版本，最新版本正在优化中，详情可加微信了解：chengzisangeban。
+开源版本对应 v1 版本，最新版本正在优化中，详情可加微信了解：hisuhong。
 
 ## 工作原理
 
-通过 JavaScript 逆向工程解析 suno.ai 生成歌曲的 API，并使用 [Lemon Squeezy](https://www.lemonsqueezy.com/) 进行支付。同时，项目内置了 token 更新和保活功能，无需担心 token 过期。
+通过 JavaScript 逆向工程解析 suno.ai 生成歌曲的 API，并使用 [stripe](https://www.stripe.com/) 进行支付。同时，项目内置了 token 更新和保活功能，无需担心 token 过期。
 
 ## 一键部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Alvin-Liu/suno-music-generator)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jesu-digjob/mysicfly)
 
 ## 快速开始
 
@@ -32,13 +32,13 @@ v1 版本：[https://v1.sunomusic.fun](https://v1.sunomusic.fun)
 2. 克隆项目
 
 ```shell
-git clone https://github.com/Alvin-Liu/suno-music-generator.git
+git clone https://github.com/jesu-digjob/mysicfly.git
 ```
 
 3. 安装依赖
 
 ```shell
-cd suno-music-generator
+cd mysicfly
 pnpm install
 ```
 
@@ -96,8 +96,6 @@ pnpm dev
 ## 其他
 
 你可以通过以下 Twitter 链接与我联系：
-[https://twitter.com/alvinliux](https://twitter.com/alvinliux) 。作为 Twitter 新人，我非常真诚地请求你的关注和支持。
+[https://twitter.com/hisuh1](https://twitter.com/hisuh1) 。  
+作为 Twitter 新人，我非常真诚地请求你的关注和支持。
 
-如果此项目对你有所帮助，请考虑请我喝杯咖啡
-
-<a href="https://www.buymeacoffee.com/vnorange" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="174"></a>
