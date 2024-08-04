@@ -17,7 +17,7 @@ v1 版本：[https://v1.sunomusic.fun](https://v1.sunomusic.fun)
 
 ## 工作原理
 
-通过 JavaScript 逆向工程解析 suno.ai 生成歌曲的 API，并使用 [stripe](https://www.stripe.com/) 进行支付。同时，项目内置了 token 更新和保活功能，无需担心 token 过期。
+通过 JavaScript 逆向工程解析 suno.ai 生成歌曲的 API，并使用 [lemon squeezy](https://www.lemonsqueezy.com) 进行支付。同时，项目内置了 token 更新和保活功能，无需担心 token 过期。
 
 ## 一键部署
 
@@ -51,7 +51,7 @@ pnpm install
 
 5. 设置环境变量
 
-在项目跟目录添加 `.env.local` 文件，填入如下配置：
+在项目根目录添加 `.env.local` 文件，填入如下配置：
 
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
